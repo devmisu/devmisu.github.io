@@ -1,0 +1,141 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Common */
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.8;
+    color: #615b5b;
+}
+
+a {
+    color: #615b5b;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+a:hover {
+    color: #000;
+}
+
+hr {
+    border: 0.5px solid #ebeaea;
+}
+
+/* Header */
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    margin: 0px;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li:not(:last-child) {
+    padding-right: 24px;
+}
+
+header a {
+    color: #000;
+}
+
+/* Footer */
+
+footer p {
+    margin: 0px;
+    font-size: 15px;
+    color: #ada8a8;
+}
+
+/* Posts list */
+
+ul.posts {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li.post a.headline {
+    font-size: 18px;
+    color: #000;
+}
+
+li.post a.headline > span {
+    padding-left: 4px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+li.post a.headline:hover > span {
+    padding-left: 8px;
+    opacity: 1;
+}
+
+li.post .caption {
+    color: #ada8a8;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li.post .caption:not(:last-child) {
+    padding-right: 16px;
+}
+
+/* Container */
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 690px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 690px) {
+    .container{
+        width: auto;
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

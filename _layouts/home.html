@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<ul class="posts">
+    {% for post in site.posts %}
+        <li class="mt-5 mb-5 post">
+            <div class="row mb-2">
+                <a class="col headline" href="{{ post.url }}">
+                    {{ post.title }}<span>➞</span>
+                </a>
+            </div>
+            <div class="row mb-2">
+                <div class="col">{{ post.description }}</div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="caption">{{ post.date | date: "%B %d, %Y" }}</div>
+                <div class="caption">-</div>
+                {% for category in post.categories %}
+                    <div class="caption">
+                        <a href="/">{{ category }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>
