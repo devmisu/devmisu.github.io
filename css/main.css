@@ -26,6 +26,28 @@ hr {
     border: 0.5px solid #ebeaea;
 }
 
+/* Page */
+
+.page h1, h2, h3 {
+    color: #000;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.page h1 { font-size: 24px; }
+.page h2, h3, h4, h5, h6 { font-size: 20px; }
+.page a { text-decoration: underline; }
+.page img { max-width: 100%; }
+
+/* 404 */
+
+.not-found {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
 /* Header */
 
 header h1 {

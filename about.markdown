@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# {{ page.title }}
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Soy Felix Chacaltana, ingeniero de Software especializado en el desarrollo de aplicaciones móviles nativas. Actualmente soy Tech Lead en
+[Solera](https://www.solera.pe){:target="_blank"}.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+A pesar de ser *swift lover*, tengo un amplio conocimiento en android, front-end y back-end.
 
-
-[jekyll-organization]: https://github.com/jekyll
+En este blog compartiré con ustedes todo lo que he aprendido en mis 5 años de experiencia, temas del día a día, entre otras cosas.

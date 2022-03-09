@@ -21,11 +21,13 @@ layout: default
                     </div>
                 {% endfor %}
             </div>
-            <div class="row mt-5">
-                <div class="col">
-                    <hr>
+            {% if post != site.posts.last %}
+                <div class="row mt-5">
+                    <div class="col">
+                        <hr>
+                    </div>
                 </div>
-            </div>
+            {% endif %}
         </li>
     {% endfor %}
 </ul>
